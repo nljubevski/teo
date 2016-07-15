@@ -2594,6 +2594,14 @@ footer {
 .bigmap {
   height: 400px !important; }
 
+.logo {
+  display:inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px;
+}
+
+
 /*------------------------------------------------------------------
 [13. Media Query]
 */
@@ -2629,6 +2637,11 @@ footer {
   .has-sidebar-left .sidebar {
     margin-right: 0; } }
 @media (max-width: 768px) {
+
+  .logo {
+    display: none;
+  }
+
   #content {
     padding-top: 100px; }
 
@@ -2679,7 +2692,13 @@ footer {
     color: #303030 !important; }
     .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
       color: #e8566d !important; } }
+
 @media (max-width: 400px) {
+
+  .logo {
+    display: none;
+  }
+
   #owl-carousel {
     display: none; }
 
@@ -2695,5 +2714,7 @@ footer {
 
   .padding-side-60 {
     padding: 0 10px; } }
+
+
 
 /*# sourceMappingURL=style.css.map */
