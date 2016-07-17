@@ -2612,7 +2612,9 @@ footer {
     font-size: 3.1em; } }
 @media (max-width: 992px) {
   .cbp-af-header .navbar-nav > li > a {
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    font-size: 13px;
+  }
 
   .sidebar {
     margin-left: 0;
