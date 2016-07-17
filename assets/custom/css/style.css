@@ -20,6 +20,10 @@
     .fontcolor-medium-light a:hover, .fontcolor-medium-light a:focus {
       color: #e8566d !important; }
 
+.content-wrap {
+  background-color: white;
+}
+
 .hovercolor, .hovercolor a {
   color: #e8566d !important; }
 
