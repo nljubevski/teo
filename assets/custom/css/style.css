@@ -2311,14 +2311,15 @@ input[type='submit'],
     height: 3px;
     margin-top: -1px; }
   .lined:before, .lined-long:before {
-    left: -90px;
+    left: -100px;
     right: auto; }
 
 .lined-long:before, .lined-long:after {
-  right: -190px;
-  width: 180px; }
+  right: -120px;
+  width: 100px; }
+
 .lined-long:before {
-  left: -190px; }
+  left: -120px; }
 
 .ornament-divider-fullwidth i:before {
   font-size: 80px;
@@ -2656,7 +2657,7 @@ footer {
     display: none; }
 
   .cbp-af-header h1 {
-    font-size: 3.1em; }
+    font-size: 2em; }
   .cbp-af-header .subtitle {
     display: none; }
 
@@ -2703,11 +2704,9 @@ footer {
     display: none;
   }
 
-  #owl-carousel {
-    display: none; }
 
   .cbp-af-header.cbp-af-header-shrink h1 {
-    font-size: 2.6em; }
+    font-size: 2em; }
 
   .cbp-af-header h1, .cbp-af-header.cbp-af-header-shrink h1 {
     line-height: 60px; }
