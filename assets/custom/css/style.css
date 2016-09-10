@@ -2412,63 +2412,6 @@ input[type='submit'],
 #instagram {
   padding-bottom: 0; }
 
-.owl-carousel:hover .owl-prev, .owl-carousel:hover .owl-next {
-  background: rgba(255, 255, 255, 0.4);
-  opacity: 1; }
-.owl-carousel:hover .owl-prev {
-  margin-left: 28px; }
-.owl-carousel:hover .owl-next {
-  margin-right: 28px; }
-.owl-carousel:hover .item .feat-post .feat-wrapper .feat-metas {
-  background: rgba(255, 255, 255, 0.9); }
-.owl-carousel .item {
-  position: relative;
-  text-align: center; }
-  .owl-carousel .item .feat-post {
-    position: absolute;
-    left: 50%;
-    top: 25%;
-    z-index: 9; }
-    .owl-carousel .item .feat-post .feat-wrapper {
-      position: relative;
-      left: -50%;
-      background: rgba(255, 255, 255, 0.3);
-      padding: 24px;
-      border-radius: 24px; }
-      .owl-carousel .item .feat-post .feat-wrapper .feat-metas {
-        background: rgba(255, 255, 255, 0.8);
-        padding: 32px;
-        border-radius: 6px;
-        font-size: 12px;
-        color: #e2839b;
-        transition: all 0.35s ease-in-out;
-        -moz-transition: all 0.35s ease-in-out;
-        -webkit-transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;
-        -ms-transition: all 0.35s ease-in-out; }
-        .owl-carousel .item .feat-post .feat-wrapper .feat-metas .ornament-divider-fullwidth {
-          line-height: 16px; }
-        .owl-carousel .item .feat-post .feat-wrapper .feat-metas a {
-          color: #e2839b; }
-          .owl-carousel .item .feat-post .feat-wrapper .feat-metas a:hover {
-            color: #e8566d; }
-        .owl-carousel .item .feat-post .feat-wrapper .feat-metas .meta-date {
-          margin-right: 8px; }
-        .owl-carousel .item .feat-post .feat-wrapper .feat-metas .meta-author {
-          margin-right: 8px; }
-        .owl-carousel .item .feat-post .feat-wrapper .feat-metas h2 {
-          margin: 10px 0 18px 0;
-          color: #404040; }
-        .owl-carousel .item .feat-post .feat-wrapper .feat-metas .morelink {
-          padding: 6px 24px;
-          text-transform: uppercase;
-          font-size: 10px;
-          background: #e798ac;
-          color: #fff; }
-          .owl-carousel .item .feat-post .feat-wrapper .feat-metas .morelink:hover {
-            background: #dd6f8b;
-            color: #fff; }
-
 .owl-nav {
   font-family: "FontAwesome";
   font-size: 24px;
