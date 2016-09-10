@@ -21,6 +21,7 @@
         // Owl Carousel
 
         $('.owl-carousel').owlCarousel({
+            lazyLoad : true,
             items:1,
             loop:true,
             nav:true,
