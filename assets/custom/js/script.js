@@ -8,40 +8,81 @@
             $(this).remove();
         });
 
-
-        /* Image cache */
-        // $('.gallery-item').each(function() {
-        //     var src = $(this).attr('href');
-        //     var img = document.createElement('img');
-        //     img.src = src;
-        //     $('#image-cache').append(img);
-        // });
-
-
-        // Owl Carousel
-
-        $('.owl-carousel').owlCarousel({
-            lazyLoad : true,
-            items:1,
-            loop:true,
-            nav:true,
-            navText: [
-                "<i class='fa fa-angle-left' aria-hidden='true'></i>",
-                "<i class='fa fa-angle-right' aria-hidden='true'></i>"
-            ],
-            dots: true,
-            margin:10,
-            autoplay: true,
-            autoplayTimeout: 11000,
-            autoplayHoverPause: true,
-            autoplaySpeed: 1250,
-            autoHeight:true
-        });
-
-
     });
 
     $(document).ready(function () {
+
+        $('#fotorama-dornroeschen').fotorama({
+            data: [
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6657-Prolog.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6664-Prolog.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6678-Prolog.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6680-Prolog.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6734-Prolog.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6754-Prolog.JPG'},
+
+
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6767-Akt1.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6780-Akt1.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6795-Akt1.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6826-Akt1.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6856-Akt1.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6879-Akt1.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6915-Akt1.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6945-Akt1.JPG'},
+
+
+
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6965-Akt2.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_6980-Akt2.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_7013-Akt2.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_7022-Akt2.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_7046-Akt2.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_7089-Akt2.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_7121-Akt2.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_7150-Akt2.JPG'},
+
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_7177-Akt3.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_7192-Akt3.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_7338-Akt3.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_7370-Akt3.JPG'},
+                {img: '/assets/custom/images/pics/dornroeschen2016/IMG_7483-Akt3.JPG'}
+
+
+            ]
+        });
+
+        $('#fotorama-fasching').fotorama({
+            data: [
+                {img: '/assets/custom/images/pics/fasching2016/f1.jpg'},
+                {img: '/assets/custom/images/pics/fasching2016/f2.jpg'},
+                {img: '/assets/custom/images/pics/fasching2016/f3.jpg'},
+                {img: '/assets/custom/images/pics/fasching2016/f4.jpg'},
+                {img: '/assets/custom/images/pics/fasching2016/f5.jpg'}
+            ]
+        });
+
+
+        $('#fotorama-sommerfest').fotorama({
+            data: [
+                {img: '/assets/custom/images/pics/sommerfest2015/s1.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s2.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s3.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s4.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s5.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s6.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s7.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s8.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s9.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s10.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s11.jpg'}
+
+            ]
+        });
+
+
+
+
 
         /* Sticky Scroll */
 
