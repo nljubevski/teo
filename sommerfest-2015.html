@@ -36,6 +36,7 @@
    <!-- CSS -->
    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
    <link href="assets/vendor/fontawesome/css/font-awesome.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 
    <link href="assets/custom/css/style.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
 
@@ -98,22 +99,21 @@
 
       <!-- Content Sections -->
       <div id="content">
-         <div class="container text-center">
-               <p style="font-size:110%"> 
-                  Ballett ist das Beste für K&ouml;rper und Geist. <br>
-                  Mit großer Erfahrung und Kompetenz bieten wir Ballett und Jazztanz an.
-               </p>
-               <p style="font-size:110%"> </p>
-            </h5>
-         </div>
-         <div class="container">
-               <img src="./assets/custom/images/Home.JPG" class="img-responsive" alt="Herzlich Willkommen!">
-         </div>
-         
-         <div class="e-divider-3"></div>
+
+        <div class="container text-left">
+          <h4>Sommerfest 2015 im TSV</h4>
+          Bei überfüllter Halle im TSV Waldtrudering präsentierten sich die Schüler der Ballettschule von klein bis groß einem begeisterten Publikum.
+          <p>
+        </div>
+
+
+          <div class="container">
+              <div id="fotorama-sommerfest" data-auto="false">
+              </div>
+          </div>
+
 
          <div class="container text-center"><div class="ornament-divider-fullwidth lined-long"><i class="flaticon-art-3"></i></div></div>
-         
          <div class="e-divider-3"></div>
 
       </div>
@@ -136,10 +136,38 @@
 
 <script src="assets/vendor/sticky-scroll/js/jquery.stickit.min.js" type="text/javascript"></script>
 <script src="assets/vendor/imagesloaded/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 
 
 <!-- Custom scripts -->
 <script src="assets/custom/js/script.js" type="text/javascript"></script>
+
+<script>
+
+    $(document).ready(function () {
+
+
+        $('#fotorama-sommerfest').fotorama({
+            data: [
+                {img: '/assets/custom/images/pics/sommerfest2015/s1.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s2.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s3.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s4.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s5.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s6.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s7.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s8.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s9.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s10.jpg'},
+                {img: '/assets/custom/images/pics/sommerfest2015/s11.jpg'}
+
+            ]
+        });
+
+
+    })
+
+</script>
 
 </body>
 </html>
