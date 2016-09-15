@@ -2012,11 +2012,7 @@ input[type='submit'],
       position: relative;
       left: -50%;
       color: #e2839b; }
-  .cbp-af-header .nav-decor-left {
-    position: absolute;
-    bottom: 15px;
-    left: 12px;
-    line-height: normal; }
+
   .cbp-af-header .navbar-nav {
     float: none;
     width: auto;
