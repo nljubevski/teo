@@ -2012,11 +2012,7 @@ input[type='submit'],
       position: relative;
       left: -50%;
       color: #e2839b; }
-  .cbp-af-header .nav-decor-left {
-    position: absolute;
-    bottom: 15px;
-    left: 12px;
-    line-height: normal; }
+
   .cbp-af-header .navbar-nav {
     float: none;
     width: auto;
@@ -2083,14 +2079,7 @@ input[type='submit'],
   font-family: "Cinzel", serif;
   padding: 15px 24px 14px 24px; }
   .navbar-default .navbar-nav > li > a:before {
-    font-family: 'Flaticon';
-    font-size: 19px;
-    position: absolute;
-    top: 13px;
-    left: -3px;
-    line-height: normal;
-    content: "\f11c";
-    color: #a7a7a7;
+    
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
