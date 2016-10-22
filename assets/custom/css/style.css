@@ -2077,7 +2077,7 @@ input[type='submit'],
   text-transform: uppercase;
   font-weight: 300;
   font-family: "Cinzel", serif;
-  padding: 15px 24px 14px 24px; }
+  padding: 15px 20px 14px 20px; }
   .navbar-default .navbar-nav > li > a:before {
     
     transition: all 0.35s ease-in-out;
