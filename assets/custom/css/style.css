@@ -2636,6 +2636,10 @@ footer {
     display: none;
   }
 
+  .cbp-af-header.cbp-af-header-shrink h1 {
+    text-align: left; }
+  .cbp-af-header.cbp-af-header-shrink h1 {
+    padding-left: 10px; }
 
   .cbp-af-header.cbp-af-header-shrink h1 {
     font-size: 2em; }
