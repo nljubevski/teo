@@ -2637,7 +2637,7 @@ footer {
   }
 
   .text-center {
-    text-align: left; }
+    text-align: left !important; }
   .cbp-af-header h1 {
     padding-left: 10px; }
 
