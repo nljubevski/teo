@@ -3,3 +3,4 @@ Disallow: /galerie.html
 Disallow: /dornroeschen-2016.html
 Disallow: /fasching-2016.html
 Disallow: /sommerfest-2015.html
+Disallow: /assets/
