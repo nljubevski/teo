@@ -313,7 +313,7 @@ body {
 .boxed {
   display: block;
   background-color: #fff;
-  background-image: url("../images/demo01/pink_rice.png");
+  background-image: url("../images/background.png");
   position: relative;
   max-width: 1250px;
   margin-right: auto;
