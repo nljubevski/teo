@@ -2654,6 +2654,9 @@ footer {
   .padding-side-60 {
     padding: 0 10px; } }
 
-
+.img-preview {
+  width: 360px;
+  height: 200px;
+}
 
 /*# sourceMappingURL=style.css.map */
